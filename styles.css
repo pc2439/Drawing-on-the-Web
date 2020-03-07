@@ -3,6 +3,17 @@
 	margin: 0;
 	padding: 0;
 }
+#container {
+	background-image: <img src="https://media.giphy.com/media/xfs2eBhQ6ujgA/giphy.gif" alt="corgi"></img>;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	width: auto;
+	height: auto;
+	}
 
 video {
         mix-blend-mode: multiply;
@@ -27,7 +38,7 @@ audio {
 .sky {
 
 	height: 100vh;
-	width: 100%
+	min-width: 100%
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -36,19 +47,17 @@ audio {
 
 }
 
-.roads {
-
+.cloud {
 	height: 10px;
 	width: 500%;
 	display: block;
-	background-image: url(media/road.jpg);
-	position: relative;
+	background-image: url(media/cloud.gif);
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	z-index: 1;
 	background-repeat: repeat-x;
-	animation: road 5s linear infinte;
 }
 
 @keyframes road {
